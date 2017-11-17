@@ -1,6 +1,6 @@
 import sys,time,argparse, schedule, queue, json
 import threading
-sys.path.insert(0, 'libs/Robinhood-API')
+sys.path.insert(0, 'libs')
 from Robinhood import Robinhood
 #################
 # Description: place a buy order of the stock, then start the analysys
